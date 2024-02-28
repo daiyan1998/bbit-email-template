@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3585cda3f0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: rgb(245, 246, 246);
+            padding-bottom: 60px;
+        }
+
+        .main {
+            width: 100%;
+            max-width: 600px;
+            background-color: #fff;
+            font-family: sans-serif;
+            color: #4a4a4a;
+            box-shadow: 0 0 25px rgba(255, 255, 255);
+        }
+
+        .two-columns {
+            font-size: 0;
+        }
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        /* @media only screen and (max-width: 600px) {
+            .two-columns .column {
+                max-width: 600px !important;
+            }
+        } */
+
+        .two-columns .column .content {
+            font-size: 15px;
+            background: white;
+        }
+
+        .two-columns .column .padding {
+            padding: 10px;
+        }
+
+        .card-title {
+            font-weight: 600;
+        }
+
+        .card-content {
+            color: #5A5E63;
+        }
+
+        .gradient-bg {
+            z-index: -10;
+            background-image: radial-gradient(at 80% 10%,
+                    rgba(247, 99, 171, 0.2) 0,
+                    transparent 40%),
+                radial-gradient(at 10% 10%, rgb(99, 158, 247, 0.2) 0, transparent 40%),
+                /* 2 */
+                radial-gradient(at 1% 50%, rgb(247, 99, 170, 0.2) 0, transparent 40%),
+                radial-gradient(at 100% 50%, rgb(99, 158, 247, 0.2) 0, transparent 40%),
+                /* 3 */
+                radial-gradient(at 100% 86%, rgb(247, 99, 170, 0.2) 0, transparent 40%),
+                radial-gradient(at 1% 86%, rgb(99, 158, 247, 0.2) 0, transparent 40%);
+        }
+    </style>
+</head>
+
+<body class="">
+    <center class="wrapper">
+        <table class="main gradient-bg" style="width: 100%; max-width: 600px;text-align: center;">
+            <!-- logo -->
+            <tr>
+                <td class="logo" style="text-align: center;">
+                    <a href="">
+                        <img src="./images//logo.png" alt="logo" width="250">
+                    </a>
+                </td>
+            </tr>
+            <!--  -->
+            <tr>
+                <td>
+                    <h2 style="font-size: 42px;color: #6A3FE2;">GET 20% OFF</h2>
+                    <p style="font-size: 18px;color: #5A5E63;padding-bottom: 1rem;">On your first order of any of our
+                        services.</p>
+                    <a style="background-color: #6A3FE2;text-decoration: none; padding: 10px 20px;border-radius: 50px;color: white;;"
+                        href="">Schedule A
+                        Call</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="font-size: 26px;font-weight: 600;padding-top: 2rem;">Our <span
+                            style="color: #6A3FE2;;">Comprehensive</span>
+                        <br> Digital
+                        Solutions
+                    </p>
+                </td>
+            </tr>
+            <!-- cards -->
+            <tr>
+                <td style="text-align: left;">
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table style="border: 1px solid #6A3FE2;padding: 1rem; border-radius: 10px;"
+                                                class="content">
+                                                <td>
+                                                    <img src="./images/ui.png" alt="">
+                                                    <h4 class="card-title">UI/UX Design</h4>
+                                                    <p class="card-content">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Harum
+                                                        culpa
+                                                        eveniet
+                                                        quaerat officia itaque? Corrupti eligendi nihil amet recusandae
+                                                        consequatur
+                                                        iure cumque eos at aperiam unde, blanditiis eius odio itaque!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content"
+                                                style="border: 1px solid #428a64;padding: 1rem; border-radius: 10px;">
+                                                <td>
+                                                    <img src="./images/ui.png" alt="">
+                                                    <h4 class="card-title">UI/UX Design</h4>
+                                                    <p class="card-content">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing
+                                                        elit. Harum
+                                                        culpa
+                                                        eveniet
+                                                        quaerat officia itaque? Corrupti eligendi nihil amet recusandae
+                                                        consequatur
+                                                        iure cumque eos at aperiam unde, blanditiis eius odio itaque!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table style="border: 1px solid #6A3FE2;padding: 1rem; border-radius: 10px;"
+                                                class="content">
+                                                <td>
+                                                    <img src="./images/ui.png" alt="">
+                                                    <h4 class="card-title">UI/UX Design</h4>
+                                                    <p class="card-content">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Harum
+                                                        culpa
+                                                        eveniet
+                                                        quaerat officia itaque? Corrupti eligendi nihil amet recusandae
+                                                        consequatur
+                                                        iure cumque eos at aperiam unde, blanditiis eius odio itaque!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content"
+                                                style="border: 1px solid #428a64;padding: 1rem; border-radius: 10px;">
+                                                <td>
+                                                    <img src="./images/ui.png" alt="">
+                                                    <h4 class="card-title">UI/UX Design</h4>
+                                                    <p class="card-content">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing
+                                                        elit. Harum
+                                                        culpa
+                                                        eveniet
+                                                        quaerat officia itaque? Corrupti eligendi nihil amet recusandae
+                                                        consequatur
+                                                        iure cumque eos at aperiam unde, blanditiis eius odio itaque!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table style="border: 1px solid #6A3FE2;padding: 1rem; border-radius: 10px;"
+                                                class="content">
+                                                <td>
+                                                    <img src="./images/ui.png" alt="">
+                                                    <h4 class="card-title">UI/UX Design</h4>
+                                                    <p class="card-content">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Harum
+                                                        culpa
+                                                        eveniet
+                                                        quaerat officia itaque? Corrupti eligendi nihil amet recusandae
+                                                        consequatur
+                                                        iure cumque eos at aperiam unde, blanditiis eius odio itaque!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content"
+                                                style="border: 1px solid #428a64;padding: 1rem; border-radius: 10px;">
+                                                <td>
+                                                    <img src="./images/ui.png" alt="">
+                                                    <h4 class="card-title">UI/UX Design</h4>
+                                                    <p class="card-content">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing
+                                                        elit. Harum
+                                                        culpa
+                                                        eveniet
+                                                        quaerat officia itaque? Corrupti eligendi nihil amet recusandae
+                                                        consequatur
+                                                        iure cumque eos at aperiam unde, blanditiis eius odio itaque!
+                                                    </p>
+                                                </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <!-- banner -->
+            <tr>
+                <td style="padding: 1rem;">
+                    <table>
+                        <tr>
+                            <td
+                                style="background-color: #6A3FE2;color: white;border-radius: 10px; padding: 10px 10px 50px;">
+                                <h2>Embrace the Future of Digital Success</h2>
+                                <p>Together, we'll craft a digital strategy that propels your business to new heights of
+                                    growth and profitability.</p>
+                                <a style="background-color: #ffffff;text-decoration: none; padding: 10px 20px;border-radius: 50px;color: #6A3FE2;;"
+                                    href="">Schedule A
+                                    Call</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- logo -->
+            <tr>
+                <td style="padding-top: 30px;">
+                    <img style="padding: 0px 10px;" src="./images/ui.png" alt="">
+                    <img style="padding: 0px 10px;" src="./images/ui.png" alt="">
+                    <img style="padding: 0px 10px;" src="./images/ui.png" alt="">
+                    <img style="padding: 0px 10px;" src="./images/ui.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align: center; width: 80%; margin: 0 auto; padding: 1rem 0px;color: #5A5E63;">
+                        Want to change which emails you receive from us? You can update your preferences here or
+                        unsubscribe here. You can view our privacy policy here.
+                    </p>
+                </td>
+            </tr>
+            <!-- line -->
+            <tr>
+                <td>
+                    <hr style="background-color: #5A5E63;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p style="color: #5A5E63;">
+                        © Copyright 2022, All Rights Reserved
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
